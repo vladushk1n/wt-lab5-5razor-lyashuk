@@ -94,3 +94,4 @@ C:\Academy\wt\lab5\wt-lab5-5razor-lyashuk\obj\Debug\net9.0\refint\wt-lab5-5razor
 C:\Academy\wt\lab5\wt-lab5-5razor-lyashuk\obj\Debug\net9.0\wt-lab5-5razor-lyashuk.pdb
 C:\Academy\wt\lab5\wt-lab5-5razor-lyashuk\obj\Debug\net9.0\wt-lab5-5razor-lyashuk.genruntimeconfig.cache
 C:\Academy\wt\lab5\wt-lab5-5razor-lyashuk\obj\Debug\net9.0\ref\wt-lab5-5razor-lyashuk.dll
+C:\Academy\wt\lab5\wt-lab5-5razor-lyashuk\obj\Debug\net9.0\wt-lab5-5razor-lyashuk.sourcelink.json

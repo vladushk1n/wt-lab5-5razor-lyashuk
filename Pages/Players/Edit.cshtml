@@ -1,0 +1,43 @@
+@page
+@model wt_lab5_5razor_lyashuk.Pages.Players.EditModel
+@{
+    ViewData["Title"] = "Редактировать игрока";
+}
+
+<div class="container py-4">
+    <h2 class="mb-4">Редактировать игрока</h2>
+
+    <form method="post">
+        <input type="hidden" asp-for="Player.Id" />
+        
+        <div class="mb-3">
+            <label class="form-label">Никнейм</label>
+            <input asp-for="Player.Nickname" class="form-control" />
+            <span asp-validation-for="Player.Nickname" class="text-danger"></span>
+        </div>
+        
+        <div class="mb-3">
+            <label class="form-label">Роль</label>
+            <input asp-for="Player.Role" class="form-control" />
+            <span asp-validation-for="Player.Role" class="text-danger"></span>
+        </div>
+        
+        <div class="mb-3">
+            <label class="form-label">Рейтинг (MMR)</label>
+            <input asp-for="Player.Rating" class="form-control" />
+            <span asp-validation-for="Player.Rating" class="text-danger"></span>
+        </div>
+
+        <div class="mb-3 form-check">
+            <input asp-for="Player.IsActive" class="form-check-input" />
+            <label class="form-check-label">Активен</label>
+        </div>
+
+        <button type="submit" class="btn btn-primary">Сохранить</button>
+        <a asp-page="./Index" class="btn btn-secondary">Назад к списку</a>
+    </form>
+</div>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

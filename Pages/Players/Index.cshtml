@@ -21,6 +21,7 @@
                         <p class="text-muted mb-1">Роль: @player.Role</p>
                         <p class="fs-5 fw-bold text-success mb-3">MMR: @player.Rating</p>
                         <a asp-page="/Players/Details" asp-route-id="@player.Id" class="btn btn-outline-primary">Подробнее</a>
+                        <a asp-page="/Players/Edit" asp-route-id="@player.Id" class="btn btn-outline-warning btn-sm">Изменить</a>
                     </div>
                 </div>
             </div>
