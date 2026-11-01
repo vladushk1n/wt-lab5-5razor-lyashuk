@@ -1,0 +1,19 @@
+@page
+@model wt_lab5_5razor_lyashuk.Pages.Players.DetailsModel
+
+<div class="container py-4 col-md-6">
+    <h2 class="fw-bold mb-4">Информация об игроке</h2>
+
+    @if (Model.Player != null)
+    {
+        <div class="card shadow-sm p-4 rounded-4">
+            <p><strong>ID:</strong> @Model.Player.Id</p>
+            <p><strong>Никнейм:</strong> @Model.Player.Nickname</p>
+            <p><strong>Роль:</strong> @Model.Player.Role</p>
+            <p><strong>Рейтинг (MMR):</strong> @Model.Player.Rating</p>
+            <p><strong>Статус:</strong> @(Model.Player.IsActive ? "Активен" : "В запасе")</p>
+
+            <a asp-page="./Index" class="btn btn-secondary mt-3">Назад к списку</a>
+        </div>
+    }
+</div>

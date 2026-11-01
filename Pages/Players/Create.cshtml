@@ -1,0 +1,36 @@
+@page
+@model wt_lab5_5razor_lyashuk.Pages.Players.CreateModel
+
+<div class="container py-4 col-md-6">
+    <h2 class="fw-bold mb-4">Добавить нового игрока</h2>
+
+    <form method="post" class="card shadow-sm p-4 rounded-4">
+        <div class="mb-3">
+            <label asp-for="Player.Nickname" class="form-label">Никнейм</label>
+            <input asp-for="Player.Nickname" class="form-control" />
+            <span asp-validation-for="Player.Nickname" class="text-danger"></span>
+        </div>
+
+        <div class="mb-3">
+            <label asp-for="Player.Role" class="form-label">Роль</label>
+            <input asp-for="Player.Role" class="form-control" />
+            <span asp-validation-for="Player.Role" class="text-danger"></span>
+        </div>
+
+        <div class="mb-3">
+            <label asp-for="Player.Rating" class="form-label">Рейтинг (MMR)</label>
+            <input asp-for="Player.Rating" class="form-control" />
+            <span asp-validation-for="Player.Rating" class="text-danger"></span>
+        </div>
+
+        <div class="mb-3 form-check">
+            <input asp-for="Player.IsActive" class="form-check-input" />
+            <label asp-for="Player.IsActive" class="form-check-label">Активен</label>
+        </div>
+
+        <div class="d-flex justify-content-between">
+            <button type="submit" class="btn btn-primary">Сохранить</button>
+            <a asp-page="./Index" class="btn btn-secondary">Назад к списку</a>
+        </div>
+    </form>
+</div>

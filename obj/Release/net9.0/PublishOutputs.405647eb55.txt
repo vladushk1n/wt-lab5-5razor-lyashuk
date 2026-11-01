@@ -1,0 +1,7 @@
+C:\Academy\wt\lab5\wt-lab5-5razor-lyashuk\bin\Release\net9.0\publish\wt-lab5-5razor-lyashuk.exe
+C:\Academy\wt\lab5\wt-lab5-5razor-lyashuk\bin\Release\net9.0\publish\appsettings.Development.json
+C:\Academy\wt\lab5\wt-lab5-5razor-lyashuk\bin\Release\net9.0\publish\appsettings.json
+C:\Academy\wt\lab5\wt-lab5-5razor-lyashuk\bin\Release\net9.0\publish\wt-lab5-5razor-lyashuk.dll
+C:\Academy\wt\lab5\wt-lab5-5razor-lyashuk\bin\Release\net9.0\publish\wt-lab5-5razor-lyashuk.deps.json
+C:\Academy\wt\lab5\wt-lab5-5razor-lyashuk\bin\Release\net9.0\publish\wt-lab5-5razor-lyashuk.runtimeconfig.json
+C:\Academy\wt\lab5\wt-lab5-5razor-lyashuk\bin\Release\net9.0\publish\wt-lab5-5razor-lyashuk.pdb
